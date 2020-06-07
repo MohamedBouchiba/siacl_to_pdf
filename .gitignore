@@ -1,0 +1,10 @@
+# On ne prend pas les fichier qui ce situe dans le dossier siacl_pdf/ car ils sont trés volumineux
+siacl_pdf/
+
+
+#Par mesure de securité nous ignorons les fichier .json pour ne pas rendre public les avis
+*.json
+
+#suppresion de mon environnement
+.idea/
+venv/
